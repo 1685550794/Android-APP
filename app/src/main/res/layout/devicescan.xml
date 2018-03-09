@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <TextView
+        android:id="@+id/top_tv"
+        android:layout_below="@id/toolbar"
+        android:layout_above="@id/top_tv"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="选择一个设备连接"
+        android:gravity="center"
+        android:background="@color/blue"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/bottom_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_alignParentBottom="true"
+        android:text="右上方搜索,发现更多设备"
+        android:gravity="center"
+        android:background="@color/blue"
+        android:textColor="@android:color/white"/>
+
+    <ListView
+        android:layout_below="@id/top_tv"
+        android:layout_above="@id/bottom_tv"
+        android:id="@+id/device_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ProgressBar
+        android:layout_below="@id/top_tv"
+        android:id="@+id/progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:indeterminateTint="@color/white"
+        android:indeterminateTintMode="src_atop"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>
+

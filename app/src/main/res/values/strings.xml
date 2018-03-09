@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BLE抄表</string>
+    <string name="version">版本:1.0</string>
+    <string name="message">华中科技大学\n邮箱：1685550794@qq.com\n2018.03.05</string>
+</resources>

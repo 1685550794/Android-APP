@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom = "http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#5020">
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/editText1_num"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity = "center"
+                android:editable="false"
+                android:background="@drawable/edit_bg"/>
+            <EditText
+                android:id="@+id/editText101"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity = "center"
+                android:editable="false"
+                android:background="@drawable/edit_bg"/>
+            <EditText
+                android:id="@+id/editText102"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity = "center"
+                android:editable="false"
+                android:background="@drawable/edit_bg"/>
+            <EditText
+                android:id="@+id/editText103"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity = "center"
+                android:editable="false"
+                android:background="@drawable/edit_bg"/>
+            <EditText
+                android:id="@+id/editText104"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity = "center"
+                android:editable="false"
+                android:background="@drawable/edit_bg"/>
+            <EditText
+                android:id="@+id/editText105"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity = "center"
+                android:editable="false"
+                android:background="@drawable/edit_bg"/>
+            <EditText
+                android:id="@+id/editText106"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity = "center"
+                android:editable="false"
+                android:background="@drawable/edit_bg"/>
+            <EditText
+                android:id="@+id/editText107"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity = "center"
+                android:editable="false"
+                android:background="@drawable/edit_bg"/>
+            <EditText
+                android:id="@+id/editText108"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity = "center"
+                android:editable="false"
+                android:background="@drawable/edit_bg"/>
+            <EditText
+                android:id="@+id/editText109"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity = "center"
+                android:editable="false"
+                android:background="@drawable/edit_bg"/>
+            <EditText
+                android:id="@+id/editText110"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity = "center"
+                android:editable="false"
+                android:background="@drawable/edit_bg"/>
+            <EditText
+                android:id="@+id/editText111"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity = "center"
+                android:editable="false"
+                android:background="@drawable/edit_bg"/>
+            <EditText
+                android:id="@+id/editText112"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity = "center"
+                android:editable="false"
+                android:background="@drawable/edit_bg"/>
+            <EditText
+                android:id="@+id/editText113"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity = "center"
+                android:editable="false"
+                android:background="@drawable/edit_bg"/>
+            <EditText
+                android:id="@+id/editText114"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity = "center"
+                android:editable="false"
+                android:background="@drawable/edit_bg"/>
+            <EditText
+                android:id="@+id/editText115"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity = "center"
+                android:editable="false"
+                android:background="@drawable/edit_bg"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/editText2_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity = "center"
+                android:editable="false"
+                android:background="@drawable/edit_bg"/>
+            <EditText
+                android:id="@+id/editText201"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity = "center"
+                android:editable="false"
+                android:background="@drawable/edit_bg"/>
+            <EditText
+                android:id="@+id/editText202"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity = "center"
+                android:editable="false"
+                android:background="@drawable/edit_bg"/>
+            <EditText
+                android:id="@+id/editText203"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity = "center"
+                android:editable="false"
+                android:background="@drawable/edit_bg"/>
+            <EditText
+                android:id="@+id/editText204"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity = "center"
+                android:editable="false"
+                android:background="@drawable/edit_bg"/>
+            <EditText
+                android:id="@+id/editText205"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity = "center"
+                android:editable="false"
+                android:background="@drawable/edit_bg"/>
+            <EditText
+                android:id="@+id/editText206"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity = "center"
+                android:editable="false"
+                android:background="@drawable/edit_bg"/>
+            <EditText
+                android:id="@+id/editText207"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity = "center"
+                android:editable="false"
+                android:background="@drawable/edit_bg"/>
+            <EditText
+                android:id="@+id/editText208"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity = "center"
+                android:editable="false"
+                android:background="@drawable/edit_bg"/>
+            <EditText
+                android:id="@+id/editText209"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity = "center"
+                android:editable="false"
+                android:background="@drawable/edit_bg"/>
+            <EditText
+                android:id="@+id/editText210"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity = "center"
+                android:editable="false"
+                android:background="@drawable/edit_bg"/>
+            <EditText
+                android:id="@+id/editText211"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity = "center"
+                android:editable="false"
+                android:background="@drawable/edit_bg"/>
+            <EditText
+                android:id="@+id/editText212"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity = "center"
+                android:editable="false"
+                android:background="@drawable/edit_bg"/>
+            <EditText
+                android:id="@+id/editText213"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity = "center"
+                android:editable="false"
+                android:background="@drawable/edit_bg"/>
+            <EditText
+                android:id="@+id/editText214"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity = "center"
+                android:editable="false"
+                android:background="@drawable/edit_bg"/>
+            <EditText
+                android:id="@+id/editText215"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity = "center"
+                android:editable="false"
+                android:background="@drawable/edit_bg"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/editText3_value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity = "center"
+                android:editable="false"
+                android:background="@drawable/edit_bg"/>
+            <EditText
+                android:id="@+id/editText301"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity = "center"
+                android:editable="false"
+                android:background="@drawable/edit_bg"/>
+            <EditText
+                android:id="@+id/editText302"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity = "center"
+                android:editable="false"
+                android:background="@drawable/edit_bg"/>
+            <EditText
+                android:id="@+id/editText303"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity = "center"
+                android:editable="false"
+                android:background="@drawable/edit_bg"/>
+            <EditText
+                android:id="@+id/editText304"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity = "center"
+                android:editable="false"
+                android:background="@drawable/edit_bg"/>
+            <EditText
+                android:id="@+id/editText305"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity = "center"
+                android:editable="false"
+                android:background="@drawable/edit_bg"/>
+            <EditText
+                android:id="@+id/editText306"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity = "center"
+                android:editable="false"
+                android:background="@drawable/edit_bg"/>
+            <EditText
+                android:id="@+id/editText307"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity = "center"
+                android:editable="false"
+                android:background="@drawable/edit_bg"/>
+            <EditText
+                android:id="@+id/editText308"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity = "center"
+                android:editable="false"
+                android:background="@drawable/edit_bg"/>
+            <EditText
+                android:id="@+id/editText309"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity = "center"
+                android:editable="false"
+                android:background="@drawable/edit_bg"/>
+            <EditText
+                android:id="@+id/editText310"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity = "center"
+                android:editable="false"
+                android:background="@drawable/edit_bg"/>
+            <EditText
+                android:id="@+id/editText311"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity = "center"
+                android:editable="false"
+                android:background="@drawable/edit_bg"/>
+            <EditText
+                android:id="@+id/editText312"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity = "center"
+                android:editable="false"
+                android:background="@drawable/edit_bg"/>
+            <EditText
+                android:id="@+id/editText313"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity = "center"
+                android:editable="false"
+                android:background="@drawable/edit_bg"/>
+            <EditText
+                android:id="@+id/editText314"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity = "center"
+                android:editable="false"
+                android:background="@drawable/edit_bg"/>
+            <EditText
+                android:id="@+id/editText315"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity = "center"
+                android:editable="false"
+                android:background="@drawable/edit_bg"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="第"
+            android:layout_gravity="center"/>
+        <EditText
+            android:id="@+id/editText_page"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:gravity = "center"
+            android:background="@drawable/edit_bg"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="页"
+            android:layout_gravity="center"/>
+        <Button
+            android:id="@+id/button_skip"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:onClick="SkipPage"
+            android:text="跳转" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/button_pre"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:onClick="PrePage"
+            android:text="上一页" />
+        <Button
+            android:id="@+id/button_next"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:onClick="NextPage"
+            android:text="下一页" />
+    </LinearLayout>
+
+</LinearLayout>
+
